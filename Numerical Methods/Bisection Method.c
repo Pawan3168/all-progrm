@@ -5,7 +5,7 @@
 #include<math.h>
 
 #define f(x) cos(x) - x * exp(x)
-
+//help
 void main()
 {
 	 float x0, x1, x2, f0, f1, f2, e;
