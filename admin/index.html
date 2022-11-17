@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ===== BOX ICONS ===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- ===== font awesome cdn link ===== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- ===== font awesome cdn link ends ===== -->
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Sidebar menu responsive</title>
+</head>
+
+<body id="body-pd">
+    <header class="header" id="header">
+        <div class="header__toggle">
+            <i class='bx bx-menu' id="header-toggle"></i>
+        </div>
+
+        <div class="header__greetings">
+            <p>Hey, <b>Sumit</b></p>
+        </div>
+
+        <div class="header__img">
+            <img src="assets/img/perfil.jpg" alt="">
+        </div>
+    </header>
+
+    <div class="l-navbar" id="nav-bar">
+        <nav class="nav">
+            <div>
+                <a href="#" class="nav__logo">
+                    <i class='bx bx-layer nav__logo-icon'></i>
+                    <span class="nav__logo-name">TicketKinee</span>
+                </a>
+
+                <div class="nav__list">
+                    <a href="#dashboard" class="nav__link active">
+                        <i class='bx bx-grid-alt nav__icon'></i>
+                        <span class="nav__name">Dashboard</span>
+                    </a>
+
+                    <a href="#users" class="nav__link">
+                        <i class='bx bx-user nav__icon'></i>
+                        <span class="nav__name">Users</span>
+                    </a>
+
+                    <a href="#manage" class="nav__link">
+                        <i class='bx bx-edit nav__icon'></i>
+                        <span class="nav__name"> Manage</span>
+                    </a>
+
+                    <a href="#data" class="nav__link">
+                        <i class='bx bx-folder nav__icon'></i>
+                        <span class="nav__name">Data</span>
+                    </a>
+
+                    <a href="#finance" class="nav__link">
+                        <i class='bx bx-receipt nav__icon'></i>
+                        <span class="nav__name">Finance</span>
+                    </a>
+                </div>
+            </div>
+
+            <a href="logout.php" class="nav__link">
+                <i class='bx bx-log-out nav__icon'></i>
+                <span class="nav__name">Log Out</span>
+            </a>
+        </nav>
+    </div>
+    <section id="dashboard">
+        <div class="section-container">
+            <h1 class="heading"> Welcome to <span>Admin Panel</span> </h1>
+
+            <div class="review-slider">
+                <div class="box">
+                    <div><i class="fa-solid fa-user box-icon" style="font-size: 50px;"></i></div>
+                    <h3>Total Users</h3>
+                    <!-- p ko satta h1 banako -->
+                    <h1>10</h1>
+                </div>
+                <!-- </div> -->
+
+                <!-- <div class=" review-slider "> -->
+                <div class="box ">
+                    <div><i class="fa-solid fa-ticket box-icon" style="font-size: 50px; "></i></div>
+                    <h3>Total Tickets Booked</h3>
+                    <!-- p ko satta h1 banako -->
+                    <h1>50</h1>
+                </div>
+                <!-- </div> -->
+
+                <!-- <div class="review-slider "> -->
+                <div class="box ">
+                    <div><i class="fa-solid fa-money-bill-transfer box-icon" style="font-size: 50px; "></i></div>
+                    <h3>Total Transaction Amount</h3>
+                    <!-- p ko satta h1 banako -->
+                    <h1>Rs. 50.00</h1>
+                </div>
+                <!-- </div> -->
+            </div>
+
+    </section>
+
+    <section id="users">
+        <div class="section-container">
+            <h1 class="heading"><span>Users</span></h1>
+
+            <div class="review-slider ">
+                <div class="box ">
+                    <a href="redirect_cablecar.php">
+                        <div><i class="fa-solid fa-users box-icon" style="font-size: 50px; "></i></div>
+                        <h3>View Users</h3>
+                        <!-- p ko satta h1 banako -->
+                        <h1>Total Users : 10</h1>
+                    </a>
+                </div>
+                <div class="box">
+                    <a href="redirect_cablecar.php">
+                        <div><i class="fa-solid fa-user-check box-icon" style="font-size: 50px; "></i></div>
+                        <h3>Manage Users</h3>
+                        <!-- p ko satta h1 banako -->
+                        <h1>Total Users : 10</h1>
+                    </a>
+                </div>
+            </div>
+    </section>
+
+    <section id="manage">
+        <div class="section-container">
+            <h1 class="heading "> Manage <span>System</span> </h1>
+
+            <div class="review-slider ">
+                <div class="box">
+                    <a href="redirect_cablecar.php">
+                        <div><i class="fa-solid fa-user-check box-icon" style="font-size: 50px; "></i></div>
+                        <h3>Manage Flights</h3>
+                        <!-- p ko satta h1 banako -->
+                        <h1>Total Tickets : 10</h1>
+                    </a>
+                </div>
+                <div class="box">
+                    <a href="redirect_cablecar.php">
+                        <div><i class="fa-solid fa-user-check box-icon" style="font-size: 50px; "></i></div>
+                        <h3>Manage Bus Tickets</h3>
+                        <!-- p ko satta h1 banako -->
+                        <h1>Total Tickets : 10</h1>
+                    </a>
+                </div>
+
+                <div class="box">
+                    <a href="redirect_cablecar.php">
+                        <div><i class="fa-solid fa-user-check box-icon" style="font-size: 50px; "></i></div>
+                        <h3>Manage Cable Car Tickets</h3>
+                        <!-- p ko satta h1 banako -->
+                        <h1>Total Tickets : 10</h1>
+                    </a>
+                </div>
+
+                <div class="box">
+                    <a href="redirect_cablecar.php">
+                        <div><i class="fa-solid fa-user-check box-icon" style="font-size: 50px; "></i></div>
+                        <h3>Manage Movie Tickets</h3>
+                        <!-- p ko satta h1 banako -->
+                        <h1>Total Tickets : 10</h1>
+                    </a>
+                </div>
+            </div>
+    </section>
+
+    <section id="data">
+        <div class="section-container">
+            <h1 class="heading "> Data <span>Addition</span> </h1>
+
+            <div class="review-slider ">
+                <div class="box">
+                    <a href="redirect_cablecar.php">
+                        <div><i class="fa-solid fa-user-check box-icon" style="font-size: 50px; "></i></div>
+                        <h3>Add Airports</h3>
+                        <!-- p ko satta h1 banako -->
+                        <h1>Total Airports : 10</h1>
+                    </a>
+                </div>
+
+                <div class="box">
+                    <a href="redirect_cablecar.php">
+                        <div><i class="fa-solid fa-user-check box-icon" style="font-size: 50px; "></i></div>
+                        <h3>Add Airlines</h3>
+                        <!-- p ko satta h1 banako -->
+                        <h1>Total Airlines : 10</h1>
+                    </a>
+                </div>
+
+                <div class="box">
+                    <a href="redirect_cablecar.php">
+                        <div><i class="fa-solid fa-user-check box-icon" style="font-size: 50px; "></i></div>
+                        <h3>Add Bus Routes</h3>
+                        <!-- p ko satta h1 banako -->
+                        <h1>Total Bus Routes : 10</h1>
+                    </a>
+                </div>
+
+                <div class="box">
+                    <a href="redirect_cablecar.php">
+                        <div><i class="fa-solid fa-user-check box-icon" style="font-size: 50px; "></i></div>
+                        <h3>Add Bus Company</h3>
+                        <!-- p ko satta h1 banako -->
+                        <h1>Total Bus Company : 10</h1>
+                    </a>
+                </div>
+
+                <div class="box">
+                    <a href="redirect_cablecar.php">
+                        <div><i class="fa-solid fa-user-check box-icon" style="font-size: 50px; "></i></div>
+                        <h3>Add Cable Car Company</h3>
+                        <!-- p ko satta h1 banako -->
+                        <h1>Total Cable Car Company : 10</h1>
+                    </a>
+                </div>
+
+                <div class="box">
+                    <a href="redirect_cablecar.php">
+                        <div><i class="fa-solid fa-user-check box-icon" style="font-size: 50px; "></i></div>
+                        <h3>Add Cable Car Station</h3>
+                        <!-- p ko satta h1 banako -->
+                        <h1>Total Cable Car Stations : 10</h1>
+                    </a>
+                </div>
+
+            </div>
+    </section>
+
+    <section id="finance">
+        <div class="section-container">
+            <h1 class="heading">Financial <span>Statements</span></h1>
+
+            <div class="review-slider ">
+                <div class="box ">
+                    <a href="redirect_cablecar.php">
+                        <div><i class="fa-solid fa-users box-icon" style="font-size: 50px; "></i></div>
+                        <h3>View Report</h3>
+                        <!-- p ko satta h1 banako -->
+                        <h1>Total Turnover : 10</h1>
+                    </a>
+                </div>
+                <div class="box ">
+                    <a href="redirect_cablecar.php">
+                        <div><i class="fa-solid fa-users box-icon" style="font-size: 50px; "></i></div>
+                        <h3>View Commission</h3>
+                        <!-- p ko satta h1 banako -->
+                        <h1>Total Profit : 10</h1>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js "></script>
+</body>
+
+</html>
